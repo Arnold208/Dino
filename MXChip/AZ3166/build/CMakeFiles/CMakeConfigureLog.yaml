@@ -1,0 +1,413 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Linux - 5.15.0-107-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/arm-none-eabi-gcc 
+      Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-g3;-ffunction-sections;-fdata-sections;-fno-strict-aliasing;-fno-builtin;-fno-common;-Wall;-Wshadow;-Wdouble-promotion;-Werror;-Wno-unused-parameter
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o): in function `exit':
+      /build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/arm-none-eabi-gcc 
+      Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-g3;-ffunction-sections;-fdata-sections;-fno-strict-aliasing;-fno-builtin;-fno-common;-Wall;-Wshadow;-Wdouble-promotion;-Werror;-Wno-unused-parameter
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/3.29.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-g3;-ffunction-sections;-fdata-sections;-fno-strict-aliasing;-fno-builtin;-fno-common;-Wall;-Wshadow;-Wdouble-promotion;-Werror;-Wno-unused-parameter
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o): in function `exit':
+      /build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-g3;-ffunction-sections;-fdata-sections;-fno-strict-aliasing;-fno-builtin;-fno-common;-Wall;-Wshadow;-Wdouble-promotion;-Werror;-Wno-unused-parameter
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/3.29.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (15:9-2019-q4-0ubuntu1) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
+      Copyright (C) 2019 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-uGoqrK"
+      binary: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-uGoqrK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter"
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: " --specs=nano.specs -Wl,--gc-sections,-print-memory-usage"
+      CMAKE_MODULE_PATH: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/../../cmake;/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-uGoqrK'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f787b
+        [1/2] /usr/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter  -O0 -std=gnu99   -v -o CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+        Thread model: single
+        gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+         /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -dD -D__USES_INITFINI__ /usr/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj -g3 -O0 -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter -std=gnu99 -version -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -o /tmp/ccJFInrl.s
+        GNU C99 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20200306, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/arm-none-eabi/9.2.1/include
+         /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include
+        End of search list.
+        GNU C99 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20200306, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 66eaa5baf4e6721a1f372763dea5d447
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj /tmp/ccJFInrl.s
+        GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+        [2/2] : && /usr/bin/cmake -E rm -f libcmTC_f787b.a && /usr/bin/arm-none-eabi-gcc-ar qc libcmTC_f787b.a  CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-gcc-ranlib libcmTC_f787b.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/include]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/include] ==> [/usr/lib/gcc/arm-none-eabi/9.2.1/include]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
+        implicit include dirs: [/usr/lib/gcc/arm-none-eabi/9.2.1/include;/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed;/usr/lib/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-uGoqrK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_f787b]
+        ignore line: [[1/2] /usr/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter  -O0 -std=gnu99   -v -o CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -dD -D__USES_INITFINI__ /usr/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj -g3 -O0 -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter -std=gnu99 -version -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -o /tmp/ccJFInrl.s]
+        ignore line: [GNU C99 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20200306  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/include]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C99 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20200306  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 66eaa5baf4e6721a1f372763dea5d447]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj /tmp/ccJFInrl.s]
+        ignore line: [GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-O0' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [[2/2] : && /usr/bin/cmake -E rm -f libcmTC_f787b.a && /usr/bin/arm-none-eabi-gcc-ar qc libcmTC_f787b.a  CMakeFiles/cmTC_f787b.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-gcc-ranlib libcmTC_f787b.a && :]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': [1/2] /usr/bin/arm-none-eabi-gcc
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /usr/bin/arm-none-eabi-gcc" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /usr/bin/arm-none-eabi-gcc" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /usr/bin/arm-none-eabi-gcc" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-kFMBvI"
+      binary: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-kFMBvI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: " --specs=nano.specs -Wl,--gc-sections,-print-memory-usage"
+      CMAKE_MODULE_PATH: "/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/../../cmake;/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-kFMBvI'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ba489
+        [1/2] /usr/bin/arm-none-eabi-g++   -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter  -g   -v -o CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+        Thread model: single
+        gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+         /usr/lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -dD -D__USES_INITFINI__ /usr/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj -g3 -g -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter -version -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -o /tmp/ccmIvGQL.s
+        GNU C++14 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20200306, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward
+         /usr/lib/gcc/arm-none-eabi/9.2.1/include
+         /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include
+        End of search list.
+        GNU C++14 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20200306, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 436e93aa8fa680a3cfe96e9899888e8f
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+         /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccmIvGQL.s
+        GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+        [2/2] : && /usr/bin/cmake -E rm -f libcmTC_ba489.a && /usr/bin/arm-none-eabi-gcc-ar qc libcmTC_ba489.a  CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj && /usr/bin/arm-none-eabi-gcc-ranlib libcmTC_ba489.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/include]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+          add: [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1] ==> [/usr/lib/arm-none-eabi/include/c++/9.2.1]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [/usr/lib/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward] ==> [/usr/lib/arm-none-eabi/include/c++/9.2.1/backward]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/include] ==> [/usr/lib/gcc/arm-none-eabi/9.2.1/include]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
+        implicit include dirs: [/usr/lib/arm-none-eabi/include/c++/9.2.1;/usr/lib/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard;/usr/lib/arm-none-eabi/include/c++/9.2.1/backward;/usr/lib/gcc/arm-none-eabi/9.2.1/include;/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed;/usr/lib/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/usr/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/spark-robotics/Documents/Blog/update/Dino/MXChip/AZ3166/build/CMakeFiles/CMakeScratch/TryCompile-kFMBvI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_ba489]
+        ignore line: [[1/2] /usr/bin/arm-none-eabi-g++   -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter  -g   -v -o CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -dD -D__USES_INITFINI__ /usr/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj -g3 -g -Wall -Wshadow -Wdouble-promotion -Wno-unused-parameter -version -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fno-common -o /tmp/ccmIvGQL.s]
+        ignore line: [GNU C++14 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20200306  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/include]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20200306  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 436e93aa8fa680a3cfe96e9899888e8f]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccmIvGQL.s]
+        ignore line: [GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-g3' '-ffunction-sections' '-fdata-sections' '-fno-strict-aliasing' '-fno-builtin' '-fno-common' '-Wall' '-Wshadow' '-Wdouble-promotion' '-Wno-unused-parameter' '-g' '-v' '-o' 'CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+        ignore line: [[2/2] : && /usr/bin/cmake -E rm -f libcmTC_ba489.a && /usr/bin/arm-none-eabi-gcc-ar qc libcmTC_ba489.a  CMakeFiles/cmTC_ba489.dir/CMakeCXXCompilerABI.cpp.obj && /usr/bin/arm-none-eabi-gcc-ranlib libcmTC_ba489.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
