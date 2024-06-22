@@ -67,3 +67,4 @@ foreach ($drive in $usbDrivesWithLabel) {
         Write-Host "Upload failed to  $mountPath"
     }
 }
+
